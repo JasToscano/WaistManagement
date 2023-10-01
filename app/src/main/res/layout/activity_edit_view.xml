@@ -112,7 +112,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,1"
+                    android:text="@string/input_1"
                     android:textSize="14sp" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,1"
+                    android:text="@string/input_2"
                     android:textSize="14sp" />
 
                 <TextView
@@ -132,7 +132,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,1"
+                    android:text="@string/input_3"
                     android:textSize="14sp" />
 
 

@@ -29,6 +29,7 @@
         <Button
             android:id="@+id/buttonNewGoal"
             android:gravity="center"
+            android:onClick="onNewGoal"
             android:text="@string/new_goal"
             android:textSize="12sp" />
 
@@ -100,7 +101,7 @@
                     android:background="@color/white"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,1"
+                    android:text="Input 1"
                     android:textSize="14sp" />
 
                 <TextView
@@ -112,7 +113,7 @@
                     android:background="@color/white"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,2"
+                    android:text="Input 2"
                     android:textSize="14sp" />
 
                 <TextView
@@ -124,7 +125,7 @@
                     android:background="@color/white"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="Box 2,3"
+                    android:text="Input 3"
                     android:textSize="14sp" />
             </TableRow>
         </TableLayout>

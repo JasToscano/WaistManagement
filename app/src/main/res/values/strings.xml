@@ -23,4 +23,7 @@
     <string name="write_weight">Save</string>
     <string name="cancel">Cancel</string>
     <string name="user_select">Selection</string>
+    <string name="input_1">Input 1</string>
+    <string name="input_2">Input 2</string>
+    <string name="input_3">Input 3</string>
 </resources>

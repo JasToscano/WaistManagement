@@ -26,16 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
         Button loginbtn = (Button) findViewById(R.id.buttonLogin);
 
-        //admin and admin
+        //user and user
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                if(username.getText().toString().equals("user") && password.getText().toString().equals("user")){
                     //correct
                     loginSuccess(v);
                 }else
                     //incorrect
-                    Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"LOGIN FAILED.",Toast.LENGTH_SHORT).show();
             }
         });
     }

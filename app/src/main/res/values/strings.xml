@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">WaistManagement</string>
+    <string name="app_name">Waist Management</string>
+    <string name="col1">Date</string>
+    <string name="col2">Weight</string>
+    <string name="col3">Weight Remaining</string>
+    <string name="edit_weight">Edit Weight</string>
+    <string name="new_goal">New Goal</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="delete_data">Delete Row</string>
+    <string name="allow_sms">Allow Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="notification">Notifications</string>
+    <string name="write_weight">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_select">Selection</string>
 </resources>

@@ -5,6 +5,7 @@
     <string name="col3">Weight Remaining</string>
     <string name="edit_weight">Edit Weight</string>
     <string name="new_goal">New Goal</string>
+
     <!-- Strings related to login -->
     <string name="prompt_username">Username</string>
     <string name="prompt_password">Password</string>
@@ -16,6 +17,7 @@
     <string name="login_failed">"Login failed"</string>
     <string name="delete_data">Delete Row</string>
     <string name="allow_sms">Allow Notifications</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="delete_account">Delete Account</string>
@@ -23,7 +25,5 @@
     <string name="write_weight">Save</string>
     <string name="cancel">Cancel</string>
     <string name="user_select">Selection</string>
-    <string name="input_1">Input 1</string>
-    <string name="input_2">Input 2</string>
-    <string name="input_3">Input 3</string>
+    <string name="done">Finished</string>
 </resources>

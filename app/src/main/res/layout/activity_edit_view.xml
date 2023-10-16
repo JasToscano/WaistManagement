@@ -13,21 +13,31 @@
         android:layout_alignParentStart="false"
         android:layout_alignParentEnd="false"
         android:layout_marginTop="16dp"
-        android:columnCount="2"
+        android:columnCount="3"
         android:useDefaultMargins="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
+            android:id="@+id/buttonEditWeight"
             android:gravity="center"
             android:text="@string/edit_weight"
             android:textSize="12sp"
-            android:onClick="openWeightForm"/>
+            android:onClick="editRow"/>
 
         <Button
+            android:id="@+id/buttonDeleteRow"
+            android:onClick="delRow"
             android:gravity="center"
             android:text="@string/delete_data"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:onClick="openMain"
+            android:gravity="center"
+            android:text="@string/done"
             android:textSize="12sp" />
 
     </GridLayout>
@@ -42,102 +52,15 @@
         app:layout_constraintTop_toBottomOf="@id/edit_button_grid">
 
         <TableLayout
+            android:id="@+id/editTable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="32dp"
             android:gravity="center"
+            android:stretchColumns="*"
             android:measureWithLargestChild="true">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/custom_blue">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="@string/user_select"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/col1"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/col2"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="@string/col3"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <CheckBox
-                    android:layout_gravity="center"
-                    android:padding="10dp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="@string/input_1"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="@string/input_2"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="@string/input_3"
-                    android:textSize="14sp" />
-
-
-            </TableRow>
-
 
         </TableLayout>
     </ScrollView>
